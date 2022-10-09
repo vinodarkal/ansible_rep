@@ -15,11 +15,12 @@
 
         - name : install tree
           yum :
-             name : tree
-             state : present
+            name : tree
+            state : present
 
 
         - name : install wget
           yum : 
-             name : wget
-             state : present       
+            name : wget
+            state : present       
+             
