@@ -11,3 +11,15 @@
           apt :
             name : wget
             state : present
+
+
+        - name : install tree
+          yum :
+             name : tree
+             state : present
+
+
+        - name : install wget
+          yum : 
+             name : wget
+             state : present       
