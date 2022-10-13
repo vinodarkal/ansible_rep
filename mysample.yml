@@ -13,5 +13,13 @@
          name: wget
          state: present
 
-        
 
+     - name: i want to install tree
+       yum:      
+        name: tree
+        state: present
+
+     - name: i want to install wget
+       yum:
+        name: wget
+        state: present  
