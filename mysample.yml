@@ -9,7 +9,7 @@
 
 
      - name: i want to install wget
-       apt:
+       yum:
          name: wget
          state: present
 
