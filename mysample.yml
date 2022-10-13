@@ -14,12 +14,4 @@
          state: present
 
 
-     - name: i want to install RedHate 
-       yum:      
-        name: httpd
-        state: present
-
-     - name: i want to start/stop webserver
-       service:
-        name: httpd
-        state: present 
+     
